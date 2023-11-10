@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.newpost{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.newpost form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.newpost form button{
+    font-size: 1.5rem;
+    font-weight: 50;
+    color: green;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid green;
+}
+#title{
+    width: 80%;
+    min-width: 300px;
+    padding: 2rem;
+    font-size: 20px;
+    border: 1 px solid green;
+}
+#author{
+    min-width: 300px;
+    width: 80%;
+    padding: 2rem;
+    font-size: 20px;
+    border: 1 px solid green;
+}
+#year{
+    width: 80%;
+    min-width: 300px;
+    padding: 2rem;
+    font-size: 20px;
+    border: 1 px solid green;
+}
